@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #85586f;
+  padding: 4px;
+}
+
+.left{
+    padding:4px 10px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+.right ul {
+    display: flex;
+    align-items: center;
+  list-style: none;
+
+}
+
+.right ul li a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+.logo {
+  border: 1px solid black;
+  border-radius: 100px;
+  width: 74px;
+}
+
+.checkBtn {
+  display: none;
+}
+
+#check {
+  display: none;
+}
